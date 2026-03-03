@@ -1,16 +1,12 @@
-## What changed
+# Summary
 - 
 
-## Why
+# Changes
 - 
 
-## How to test
-1) 
-2) 
-3) 
-
-## Checklist
-- [ ] Title is clear, specific, and in imperative mood
-- [ ] Scope is one logical change (no unrelated edits)
-- [ ] Docs updated if behavior changed
-- [ ] No debug artifacts left (prints/breakpoints)
+# Checklist
+- [ ] I ran `pytest -q` locally and it passed
+- [ ] I updated documentation where needed
+- [ ] I kept changes small and focused
+- [ ] I checked formatting / naming consistency
+- [ ] I confirmed no secrets or large files were added

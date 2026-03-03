@@ -1,7 +1,7 @@
-# Pre-PR Self Review Checklist
+# PR Self-Review Checklist
 
-- [ ] PR does one logical thing
-- [ ] Title matches the change (clear + specific)
-- [ ] I ran relevant commands/tests (or explained why not)
-- [ ] README/docs updated if needed
-- [ ] No debug prints / breakpoints / commented code
+- [ ] The PR title and description clearly explain the change.
+- [ ] I ran `pytest -q` locally and all tests passed.
+- [ ] I added/updated documentation (README/docs) if behavior changed.
+- [ ] I avoided committing secrets, credentials, or large unnecessary files.
+- [ ] I kept the PR focused (no unrelated changes).
