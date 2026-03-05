@@ -65,6 +65,7 @@ Pulled image:
 - Verified cached images with `docker images` (hello-world and postgres:15-alpine shown)
 
 Command used:
+<img width="535" height="392" alt="image" src="https://github.com/user-attachments/assets/3dd6ed98-8aa2-4999-9939-366833992ea5" />
 
 ```bash
 docker run -d \
